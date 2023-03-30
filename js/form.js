@@ -40,6 +40,7 @@ document.querySelector("#submit").addEventListener("click", e => {
   const solicitante = document.querySelector("#solicitante").value;
   const cargo = document.querySelector("#cargo").value;
   const contacto2 = document.querySelector("#contacto2").value;
+  const contacto3 = document.querySelector("#contacto2").value;
   const fecha = document.querySelector("#fecha").innerHTML;
 
   const resp = document.querySelector("#respuesta");
@@ -66,11 +67,13 @@ document.querySelector("#submit").addEventListener("click", e => {
 		${cargo}%0A
     *Empresa solicitante:* 
 		${contacto2}%0A
+    *Contacto del solicitante:* 
+		${contacto3}%0A
     *Fecha:* 
 		${fecha}%0A
 		`;
 
-  if (empresa === "" || direccion === ""|| contacto === "" || modelo === ""|| falla === "" || solicitante === "" || cargo === ""|| contacto2 === "") {
+  if (empresa === "" || direccion === ""|| contacto === "" || modelo === ""|| falla === "" || solicitante === "" || cargo === ""|| contacto2 === ""|| contacto3 === "") {
     resp.classList.add("fail");
     resp.innerHTML = `Faltan algunos datos`;
     return false;
