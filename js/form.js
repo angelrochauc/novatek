@@ -40,7 +40,7 @@ document.querySelector("#submit").addEventListener("click", e => {
   const solicitante = document.querySelector("#solicitante").value;
   const cargo = document.querySelector("#cargo").value;
   const contacto2 = document.querySelector("#contacto2").value;
-  const contacto3 = document.querySelector("#contacto2").value;
+  const contacto3 = document.querySelector("#contacto3").value;
   const fecha = document.querySelector("#fecha").innerHTML;
 
   const resp = document.querySelector("#respuesta");
