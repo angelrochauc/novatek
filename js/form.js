@@ -56,15 +56,15 @@ document.querySelector("#submit").addEventListener("click", e => {
 		${direccion}%0A
     *Contacto:* 
 		${contacto}%0A
-    *Modelo del equipo:* 
+    *Persona a contactar:* 
 		${modelo}%0A
-    *Reporte de la falla:* 
+    *Tipo de visita:* 
 		${falla}%0A
-    *Quien solicita la visita:* 
+    *Descripción de la visita:* 
 		${solicitante}%0A
-    *Cargo:* 
+    *Nombre del solicitante:* 
 		${cargo}%0A
-    *Contacto del solicitante:* 
+    *Empresa solicitante:* 
 		${contacto2}%0A
     *Fecha:* 
 		${fecha}%0A
