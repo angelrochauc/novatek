@@ -7,8 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>Reporte Novatek</title>
   <link rel="stylesheet" href="css/estilos.css" />
- <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-  <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" />
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+  <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" />
   <link rel="icon" type="image/jfif" href="favicon.jfif" />
 
 
@@ -27,7 +27,7 @@
     <div class="row">
       <div class="col-xs-6">
 
-        <label for="empresa" class="formulario__label">Conjunto o Empresa:</label>
+        <label for="empresa" class="formulario__label">Razón Social:</label>
         <input id="empresa" type="text" class="formulario__input" placeholder="" />
       </div>
       <div class="col-xs-6">
@@ -35,34 +35,42 @@
         <input id="direccion" type="text" class="formulario__input" />
       </div>
       <div class="col-xs-6">
-        <label for="contacto" class="formulario__label">Contacto:</label>
-        <input id="contacto" type="number" class="formulario__input" />
-      </div>
-      <div class="col-xs-6">
-        <label for="modelo" class="formulario__label">Modelo de equipo:</label>
+        <label for="modelo" class="formulario__label">Persona a contactar:</label>
         <input id="modelo" type="text" class="formulario__input" />
       </div>
       <div class="col-xs-6">
-        <label for="falla" class="formulario__label">Reporte de falla:</label>
-        <input id="falla" type="text" class="formulario__input" />
+        <label for="contacto" class="formulario__label">Contacto:</label>
+        <input id="contacto" type="number" class="formulario__input" />
       </div>
-<!--
+    
       <div class="col-xs-6">
-        <label for="seleccionArchivos" class="formulario__label">Seleccione imágen:</label>
-        <input id="seleccionArchivos" accept="image/*" type="file" class="formulario__input" readonly multiple />
-      </div>-->
+        <label for="falla" class="formulario__label">Tipo de visita:</label>
+     
+        <select id="falla" name="listaempleados" class="formulario__input">
+          <option>Seleccione una opcion</option>
+          <option>Mant Preventivo</option>
+          <option>Mant Correctivo</option>
+          <option>Inspección</option>
+          <option>Visita Tecnica</option>
+          <option>Visita de Cotización</option>
+        </select>
+      </div>
    
       <div class="col-xs-6">
-        <label for="solicitante" class="formulario__label">Quien solicita visita:</label>
+        <label for="solicitante" class="formulario__label">Descripción de la visita:</label>
         <input id="solicitante" type="text" class="formulario__input" />
       </div>
       <div class="col-xs-6">
-        <label for="contacto2" class="formulario__label">Contacto del solicitante:</label>
-        <input id="contacto2" type="number" class="formulario__input" />
+        <label for="contacto2" class="formulario__label">Empresa Solicitante:</label>
+        <input id="contacto2" type="text" class="formulario__input" />
       </div>
       <div class="col-xs-6">
-        <label for="cargo" class="formulario__label">Cargo:</label>
+        <label for="cargo" class="formulario__label">Nombre del solicitante:</label>
         <input id="cargo" type="text" class="formulario__input" />
+      </div>
+      <div class="col-xs-6">
+        <label for="contacto" class="formulario__label">Contacto:</label>
+        <input id="contacto" type="number" class="formulario__input" />
       </div>
 
 
